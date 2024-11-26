@@ -164,6 +164,76 @@ header img {
             padding-left: 20px;
             margin-top: 20px;
         }
+        /* Responsive Styling */
+    @media (max-width: 768px) {
+        header {
+            padding: 1rem;
+        }
+
+        header img {
+            max-width: 120px;
+        }
+
+        nav {
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            flex: 1 1 100%;
+            text-align: center;
+            padding: 8px 10px;
+            margin: 5px 0;
+        }
+
+        .container {
+            padding: 15px;
+            margin: 10px auto;
+        }
+
+        .editor-picks {
+            flex-direction: column;
+        }
+
+        .editor-pick {
+            flex: 1 1 100%;
+        }
+
+        .editor-pick img {
+            height: 120px;
+        }
+
+        footer {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        header {
+            font-size: 1.2rem;
+            padding: 0.8rem;
+        }
+
+        header img {
+            max-width: 100px;
+        }
+
+        nav a {
+            font-size: 14px;
+            padding: 6px 8px;
+        }
+
+        .editor-pick h3 {
+            font-size: 16px;
+        }
+
+        .editor-pick p {
+            font-size: 12px;
+        }
+
+        footer {
+            padding: 8px 0;
+        }
+    }
     </style>
 </head>
 <body>
