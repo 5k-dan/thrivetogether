@@ -2,7 +2,7 @@
 
 Welcome to **Thrive Together**, a platform designed to support college students in managing their mental health, staying motivated, and thriving in their academic and personal lives.
 
-![Thrive Together Logo](path/to/your/logo.png)
+![Thrive Together Logo](thrivelogo.png)
 
 ## Table of Contents
 - [About the Project](#about-the-project)
