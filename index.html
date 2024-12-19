@@ -311,53 +311,7 @@ header img {
             color: white;
         }
 
-        /* Meditation Section Styling */
-        .meditation-container {
-            text-align: center;
-            padding: 40px;
-            border-radius: 8px;
-            background: linear-gradient(to bottom, #c2e59c, #64b3f4);
-            color: white;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        .meditation-instruction {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        .meditation-circle {
-            width: 100px;
-            height: 100px;
-            margin: 0 auto;
-            background-color: #4caf50;
-            border-radius: 50%;
-            animation: breathe 6s infinite ease-in-out;
-        }
-
-        @keyframes breathe {
-            0%, 100% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.5);
-            }
-        }
-
-        @media (max-width: 768px) {
-            .meditation-container {
-                padding: 20px;
-            }
-
-            .meditation-instruction {
-                font-size: 18px;
-            }
-
-            .meditation-circle {
-                width: 80px;
-                height: 80px;
-            }
-        }
+      
     </style>
 </head>
 <body>
@@ -373,7 +327,6 @@ header img {
         <a href="#" onclick="showSection('affirmations')">Affirmations</a>
         <a href="#" onclick="showSection('diversity')">Diversity & Inclusion</a>
         <a href="#" onclick="showSection('career')">Career Planning</a>
-        <a href="#" onclick="showSection('meditation')">Meditation</a>
     </nav>
 
 <!-- Content Sections -->
@@ -769,16 +722,6 @@ header img {
                 </div>
             </div>
         </div>
-         <!-- Meditation Section -->
-        <div id="meditation" class="section">
-            <div class="meditation-container">
-                <h2>Meditation & Breathing Exercise</h2>
-                <p class="meditation-instruction">Breathe in as the circle expands, and breathe out as it shrinks.</p>
-                <div class="meditation-circle"></div>
-            </div>
-        </div>
-    </div>
-
 
 
     <footer>
